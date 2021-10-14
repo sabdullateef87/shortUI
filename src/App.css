@@ -1,7 +1,21 @@
 .App {
   text-align: center;
+  background-color: #0b0b45;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
+.App h1 {
+  color: white;
+}
+.return_link {
+  margin-top: 100px;
+}
+.return_link a {
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
